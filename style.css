@@ -224,3 +224,60 @@ body .brand-container img{
 .brand img {
   width: 30px;
 }
+
+/* index */
+body{
+  font-family: arial;
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  background-color: #080808;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  
+  font-family: 'Quicksand', sans-serif;;
+  font-weight: bold;
+  font-size: 20px;
+  
+  display: grid;
+  grid-template-columns: repeat(10, 0.13fr);
+  grid-template-rows: 50px 1fr 1fr 100px;
+  gap: 10px;
+  
+  padding: 10px;
+  box-sizing: border-box;
+/*   margin: 0px; */
+}
+
+.container div{
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+}
+
+.header{
+  background: black;
+  grid-column-start: 2;
+  grid-column-end: 11;
+}
+.menu {
+  background: black;
+/*   grid-column-start: 1;
+  grid-column-end: 1; */
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.general {
+  background: black;
+  grid-column-start: 2;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 11;  
+}
