@@ -1,0 +1,102 @@
+:root{
+    --primary: black;
+    --light: white;
+    --grey: #efefef;
+}
+
+body {
+    overflow: hidden;
+    font-family: "Montserrat", "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+    background-image: url("assets/images/fondo.png");
+    
+}
+
+.fondo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+.bg-dark {
+    background-color: black !important;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container .logo {
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu {
+    width: 11rem;
+    text-align: center !important;
+}
+
+.text a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: larger;
+}
+
+
+.icon {
+    font-size: 80px;
+}
+
+.logo img {
+     min-width: 150px;
+     max-width: 120px;
+}
+
+.bg-light {
+    background-color: rgb(240, 216, 8) !important;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 80px !important;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
